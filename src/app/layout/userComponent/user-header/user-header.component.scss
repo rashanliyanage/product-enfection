@@ -1,4 +1,5 @@
-.login-class{
-    background-color: rgba(49, 36, 36, 0.8) !important;
-    color: white;
+@media (min-width: 1023px){
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        width: 800px !important;
+    }
 }

@@ -1,0 +1,72 @@
+body{
+    font-family: Quicksand;
+}
+
+.home-image{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),
+            url("assets/images/hero3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left,right;
+    position: sticky;
+    min-height: 500px;
+    padding-top: 200px;
+}
+.main-heading{
+    color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.search-input{
+    background-color: transparent !important;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+button.search-button{
+    background-color: #AA9839;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+i.search-icon{
+    color: #ffffff;
+}
+
+@-webkit-keyframes typing {
+    from { width: 0 }
+    to { width:16.3em }
+}
+
+@-moz-keyframes typing {
+    from { width: 0 }
+    to { width:16.3em }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+@-moz-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+
+h2 {
+    font-size:150%;
+    width:16.3em;
+    white-space:nowrap;
+    overflow:hidden;
+    border-right: .1em solid black;
+    text-align: center !important;
+
+    -webkit-animation: typing 10s steps(40, end), /* # of steps = # of characters */
+    blink-caret 1s step-end infinite;
+    -moz-animation: typing 10s steps(40, end), /* # of steps = # of characters */
+    blink-caret 1s step-end infinite;
+}
+
+
